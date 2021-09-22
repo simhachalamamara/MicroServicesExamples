@@ -1,0 +1,13 @@
+server:
+   port: 9001
+
+cloud:
+   aws:
+     region:
+       static: ap-south-1
+       auto: false
+      credentials:
+            access-key: AKIA3OX7LJ75MOMKP5O3
+            secret-key: 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
+      end-point:
+           url: https://sqs.ap-south-1.amazonaws.com/787588272122/mysqsUque
